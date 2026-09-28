@@ -1,0 +1,7 @@
+# Rien n'est servi directement, sauf les images (icône du plugin).
+# "Require all denied" (mod_authz_core) : l'ancienne syntaxe "Order/Deny" ne bloquait pas les .php
+# a cause du "Allow from all" du .htaccess racine de Jeedom.
+Require all denied
+<FilesMatch "\.(jpg|jpeg|png|gif|pdf|txt|bmp)$">
+    Require all granted
+</FilesMatch>
