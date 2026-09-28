@@ -39,6 +39,7 @@
         "Activer": "Enable",
         "Actualiser maintenant": "Refresh now",
         "Adresse de l'API locale CrowdSec. Utilisez https si la LAPI est sur une autre machine : la clé est envoyée à chaque requête.": "Address of the CrowdSec local API. Use https if the LAPI is on another machine: the key is sent with every request.",
+        "Afficher / masquer": "Show / hide",
         "Ajouter": "Add",
         "Assistant cron": "Cron assistant",
         "Aucun": "None",
