@@ -2,8 +2,8 @@
 	"id": "crowdsec",
 	"name": "CrowdSec",
 	"description": {
-		"fr_FR": "Plugin pour superviser CrowdSec via son API locale (LAPI) : nombre de décisions actives (détections locales et blocklist communautaire), liste et dernière IP bloquée localement.",
-		"en_US": "Plugin to monitor CrowdSec through its local API (LAPI): number of active decisions (local detections and community blocklist), list and last locally blocked IP."
+		"fr_FR": "Plugin pour superviser CrowdSec via son API locale (LAPI) : nombre de décisions actives (détections locales et blocklist communautaire), liste et dernière IP bloquée localement. Il permet aussi de bannir et de débannir une adresse IP.",
+		"en_US": "Plugin to monitor CrowdSec through its local API (LAPI): number of active decisions (local detections and community blocklist), list and last locally blocked IP. It also allows you to ban and unban an IP address."
 	},
 	"licence": "AGPL",
 	"author": "Limad44",

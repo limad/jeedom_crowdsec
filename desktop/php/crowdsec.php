@@ -115,6 +115,29 @@ $eqLogics = eqLogic::byType($plugin->getId());
 									</span>
 								</div>
 							</div>
+
+							<legend><i class="fas fa-ban"></i> {{Bannir / débannir (optionnel)}}</legend>
+							<div class="form-group">
+								<label class="col-sm-4 control-label help" data-help="{{Compte créé sur la machine CrowdSec avec : cscli machines add jeedom --password <mot de passe>. Laissez vide pour un usage en lecture seule.}}">{{Compte machine}}</label>
+								<div class="col-sm-6">
+									<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="machineId" placeholder="jeedom">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-4 control-label help" data-help="{{Stocké chiffré.}}">{{Mot de passe machine}}</label>
+								<div class="col-sm-6 input-group">
+									<input type="text" autocomplete="new-password" class="eqLogicAttr form-control roundedLeft inputPassword" data-l1key="configuration" data-l2key="machinePassword">
+									<span class="input-group-btn">
+										<a class="btn btn-default form-control bt_showPass roundedRight"><i class="fas fa-eye"></i></a>
+									</span>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-4 control-label help" data-help="{{Durée des bannissements faits depuis Jeedom, au format CrowdSec : 4h, 30m, 1h30m...}}">{{Durée de bannissement}}</label>
+								<div class="col-sm-3">
+									<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="banDuration" placeholder="4h">
+								</div>
+							</div>
 							<div class="form-group">
 								<label class="col-sm-4 control-label"></label>
 								<div class="col-sm-6">
