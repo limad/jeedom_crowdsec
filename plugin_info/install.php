@@ -26,3 +26,6 @@ function crowdsec_update() {
         $eqLogic->save();
     }
 }
+
+function crowdsec_remove() {
+}
