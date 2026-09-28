@@ -1,0 +1,11 @@
+# Fichiers locaux / outils
+CLAUDE.md
+.claude/
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
