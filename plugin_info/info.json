@@ -31,5 +31,7 @@
 		"atlas"
 	],
 	"changelog": "https://limad.github.io/jeedom-plugins-docs/crowdsec/#language#/changelog",
-	"documentation": "https://limad.github.io/jeedom-plugins-docs/crowdsec/#language#/"
+	"documentation": "https://limad.github.io/jeedom-plugins-docs/crowdsec/#language#/",
+	"changelog_beta": "https://limad.github.io/jeedom-plugins-docs/crowdsec/beta/#language#/changelog",
+	"documentation_beta": "https://limad.github.io/jeedom-plugins-docs/crowdsec/beta/#language#/"
 }
