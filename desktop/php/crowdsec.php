@@ -109,9 +109,9 @@ $eqLogics = eqLogic::byType($plugin->getId());
 							<div class="form-group">
 								<label class="col-sm-4 control-label help" data-help="{{Clé créée sur la machine CrowdSec avec : cscli bouncers add jeedom. Stockée chiffrée.}}">{{Clé bouncer}}</label>
 								<div class="col-sm-6 input-group">
-									<input type="text" autocomplete="new-password" class="eqLogicAttr form-control roundedLeft inputPassword" data-l1key="configuration" data-l2key="apiKey">
+									<input type="password" autocomplete="new-password" class="eqLogicAttr form-control roundedLeft" data-l1key="configuration" data-l2key="apiKey">
 									<span class="input-group-btn">
-										<a class="btn btn-default form-control bt_showPass roundedRight"><i class="fas fa-eye"></i></a>
+										<a class="btn btn-default form-control bt_csShowPass roundedRight" title="{{Afficher / masquer}}"><i class="fas fa-eye"></i></a>
 									</span>
 								</div>
 							</div>
@@ -126,9 +126,9 @@ $eqLogics = eqLogic::byType($plugin->getId());
 							<div class="form-group">
 								<label class="col-sm-4 control-label help" data-help="{{Stocké chiffré.}}">{{Mot de passe machine}}</label>
 								<div class="col-sm-6 input-group">
-									<input type="text" autocomplete="new-password" class="eqLogicAttr form-control roundedLeft inputPassword" data-l1key="configuration" data-l2key="machinePassword">
+									<input type="password" autocomplete="new-password" class="eqLogicAttr form-control roundedLeft" data-l1key="configuration" data-l2key="machinePassword">
 									<span class="input-group-btn">
-										<a class="btn btn-default form-control bt_showPass roundedRight"><i class="fas fa-eye"></i></a>
+										<a class="btn btn-default form-control bt_csShowPass roundedRight" title="{{Afficher / masquer}}"><i class="fas fa-eye"></i></a>
 									</span>
 								</div>
 							</div>

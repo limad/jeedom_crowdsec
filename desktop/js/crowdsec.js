@@ -52,6 +52,14 @@ document.registerEvent('click', function (e) {
     csCallAction('testConnection', '{{Test en cours...}}');
   } else if (e.target.closest('#bt_csRefresh')) {
     csCallAction('refresh', '{{Actualisation en cours...}}');
+  } else if (e.target.closest('.bt_csShowPass')) {
+    /* Champs secrets en type="password" : l'œil bascule le type (le bt_showPass du core ne gère que la classe inputPassword) */
+    var input = e.target.closest('.input-group').querySelector('input');
+    var icon = e.target.closest('.bt_csShowPass').querySelector('i');
+    var show = input.type === 'password';
+    input.type = show ? 'text' : 'password';
+    icon.classList.toggle('fa-eye', !show);
+    icon.classList.toggle('fa-eye-slash', show);
   }
 });
 
